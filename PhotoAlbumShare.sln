@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbumShare", "PhotoAlbumShare\PhotoAlbumShare.csproj", "{7D556B23-A317-4885-932D-AF74424E59E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoAlbumShare", "PhotoAlbumShare\PhotoAlbumShare.csproj", "{7D556B23-A317-4885-932D-AF74424E59E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbumShare.Data", "PhotoAlbumShare.Data\PhotoAlbumShare.Data.csproj", "{D6682D92-358B-40C5-B0CD-90861C5663B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoAlbumShare.Data", "PhotoAlbumShare.Data\PhotoAlbumShare.Data.csproj", "{D6682D92-358B-40C5-B0CD-90861C5663B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
