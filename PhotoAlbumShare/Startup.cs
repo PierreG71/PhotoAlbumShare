@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PhotoAlbumShare.Data;
+using PhotoAlbumShare.Services;
 
 namespace PhotoAlbumShare
 {
@@ -58,7 +59,7 @@ namespace PhotoAlbumShare
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Gallery}/{action=Index}/{id?}");
             });
         }
     }

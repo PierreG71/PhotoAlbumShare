@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PhotoAlbumShare.Data\PhotoAlbumShare.Data.csproj" />
+    <ProjectReference Include="..\PhotoAlbumShare.Services\PhotoAlbumShare.Services.csproj" />
   </ItemGroup>
 
 </Project>
