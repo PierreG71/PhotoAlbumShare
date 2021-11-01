@@ -35,6 +35,7 @@ namespace PhotoAlbumShare
             services.AddDbContext<PhotoAlbumShareDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddScoped<IImage, ImageService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

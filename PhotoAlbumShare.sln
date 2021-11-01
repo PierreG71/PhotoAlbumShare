@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoAlbumShare", "PhotoAlb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhotoAlbumShare.Data", "PhotoAlbumShare.Data\PhotoAlbumShare.Data.csproj", "{D6682D92-358B-40C5-B0CD-90861C5663B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAlbumShare.Services", "PhotoAlbumShare.Services\PhotoAlbumShare.Services.csproj", "{C2B20EC2-4E15-4CE8-9B7C-9A9B340BE108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D6682D92-358B-40C5-B0CD-90861C5663B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6682D92-358B-40C5-B0CD-90861C5663B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6682D92-358B-40C5-B0CD-90861C5663B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B20EC2-4E15-4CE8-9B7C-9A9B340BE108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B20EC2-4E15-4CE8-9B7C-9A9B340BE108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B20EC2-4E15-4CE8-9B7C-9A9B340BE108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B20EC2-4E15-4CE8-9B7C-9A9B340BE108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
