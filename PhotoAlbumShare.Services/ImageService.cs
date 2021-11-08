@@ -23,7 +23,7 @@ namespace PhotoAlbumShare.Services
 
         public GalleryImage GetId(int id)
         {
-            return Context.GalleryImages.Find(id);
+            return GetAll().Where(img => img.Id == id).First();
         }
 
         public IEnumerable<GalleryImage> GetTag(string tag)
